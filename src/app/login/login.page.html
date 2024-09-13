@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+    <div>CromaConnect</div>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-icon class="center-icon" name="shield-checkmark-outline"></ion-icon>
+  <h2 class="app-title">ChromaConnect</h2>
+  <div class="form-container">
+    <form>
+      <app-input icon="mail-outline" placeholder="Email" type="text"></app-input>
+      <app-input icon="lock-closed-outline" placeholder="Password" type="Password"></app-input>
+      <ion-button (click)="redirigir()" expand="block">
+        Ingresar
+      </ion-button>
+    </form>
+  </div>
+</ion-content>

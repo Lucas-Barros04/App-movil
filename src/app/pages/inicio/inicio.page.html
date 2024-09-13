@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ChromaConnect</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="home-outline"></ion-icon>
+        Inicio
+      </ion-tab-button>
+      <ion-tab-button tab="search">
+        <ion-icon name="search-outline"></ion-icon>
+        Buscar
+      </ion-tab-button>
+      <ion-tab-button tab="person" routerLink="/perfil">
+        <ion-icon name="person-outline"></ion-icon>
+        Perfil
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  <app-carrusel/>
+</ion-content>
