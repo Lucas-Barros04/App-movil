@@ -14,11 +14,13 @@ const routes: Routes = [
   {
     path: 'inicio',
     loadChildren: () => import('./pages/inicio/inicio.module').then( m => m.InicioPageModule)
-  },
-  {
+  },  {
     path: 'perfil',
-    loadChildren: () => import('../app/pages/inicio/perfil/perfil.module').then( m => m.PerfilPageModule)
-  }
+    loadChildren: () => import('./pages/perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
+
+  
+  
 ];
 
 @NgModule({
