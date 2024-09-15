@@ -1,14 +1,16 @@
-<swiper-container class="swiper-container" effect="cards">
-  <swiper-slide class="swiper-slide">
-    <img src="https://github.com/midudev.png" alt="">
-  </swiper-slide>
-  <swiper-slide class="swiper-slide">
-    <img src="https://github.com/Lucas-Barros04.png" alt="">
-  </swiper-slide>
-  <swiper-slide class="swiper-slide">
-    <img src="https://github.com/react.png" alt="">
-  </swiper-slide>
+<!-- carrusel de usuario-->
+<swiper-container class="swiper-container" slides-per-view="4" space-between="10" loop="true"> <!-- Cambia a 0 para que estén pegadas -->
+  <ng-container *ngFor="let usuario of usuarios">
+    <swiper-slide class="swiper-slide">
+      <div class="image-container">
+        <img [src]="usuario.imagen" alt="{{ usuario.nombre }}" />
+      </div>
+      <div class="usuario-info">
+        <p>{{ usuario.nombre }}</p>
+      </div>
+    </swiper-slide>
+  </ng-container>
 </swiper-container>
-  <hr>
-  <hr>
+<!-- Separador -->
+
 

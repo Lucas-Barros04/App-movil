@@ -10,6 +10,7 @@ import { InicioPageRoutingModule } from './inicio-routing.module';
 
 import { InicioPage } from './inicio.page';
 import { CarruselComponent } from 'src/app/component/inicio/carrusel/carrusel.component';
+import { TrajetaComponent } from 'src/app/component/trajeta/trajeta.component'; // Asegúrate de importar el componente
 
 
 @NgModule({
@@ -19,7 +20,7 @@ import { CarruselComponent } from 'src/app/component/inicio/carrusel/carrusel.co
     IonicModule,
     InicioPageRoutingModule,
   ],
-  declarations: [InicioPage, CarruselComponent],
+  declarations: [InicioPage, CarruselComponent, TrajetaComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class InicioPageModule {}
