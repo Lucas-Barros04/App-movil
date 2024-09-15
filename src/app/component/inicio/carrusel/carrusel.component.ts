@@ -25,6 +25,7 @@ export class CarruselComponent  implements OnInit {
     // Agrega más usuarios según sea necesario
   ];
 
+
   constructor() {
 
   }
