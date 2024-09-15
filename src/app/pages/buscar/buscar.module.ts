@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { BuscarPageRoutingModule } from './buscar-routing.module';
 
 import { BuscarPage } from './buscar.page';
-
+import { TarjetasNombreComponent } from '../../component/buscar/tarjetas-nombre/tarjetas-nombre.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -15,6 +15,6 @@ import { BuscarPage } from './buscar.page';
     IonicModule,
     BuscarPageRoutingModule
   ],
-  declarations: [BuscarPage]
+  declarations: [BuscarPage, TarjetasNombreComponent]
 })
 export class BuscarPageModule {}

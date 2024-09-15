@@ -1,6 +1,6 @@
 .card-image {
   width: 100%; // Asegura que la imagen ocupe todo el ancho del card
-  height: 200px; // Ajusta la altura según sea necesario
+  height: 300px; // Ajusta la altura según sea necesario
   object-fit: cover; // Asegura que la imagen cubra el área sin distorsionarse
 }
 
@@ -8,10 +8,10 @@ ion-card {
   margin: 16px; // Espaciado alrededor de la tarjeta
   border-radius: 12px; // Bordes redondeados
   overflow: hidden; // Asegura que el contenido no sobresalga
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); // Sombra sutil
+  box-shadow: 0 8px 10px rgba(195, 17, 17, 0.1); // Sombra sutil
   transition: transform 0.2s; // Transición suave para el efecto hover
 
   &:hover {
     transform: scale(1.02); // Efecto de aumento al pasar el mouse
-  }
+  } 
 }
