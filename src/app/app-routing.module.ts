@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'buscar',
     loadChildren: () => import('./pages/buscar/buscar.module').then( m => m.BuscarPageModule)
   },
+  {
+    path: 'registrar',
+    loadChildren: () => import('./pages/registrar/registrar.module').then( m => m.RegistrarPageModule)
+  },
 
 
 
