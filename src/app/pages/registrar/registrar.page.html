@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registrar</ion-title>
+    <div>CromaConnect</div>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-icon class="center-icon" name="shield-checkmark-outline"></ion-icon>
+  <h2 class="app-title">ChromaConnect</h2>
+  <div class="form-container">
+    <form>
+      <ion-item class="custom-input" lines="none">
+        <ion-input placeholder="Nombre de usuario" type="text"></ion-input>
+      </ion-item>  
+      <ion-item class="custom-input" lines="none">
+        <ion-input placeholder="Nombre" type="text"></ion-input>
+      </ion-item>
+      <ion-item class="custom-input" lines="none">
+        <ion-input placeholder="Número teléfono" type="number" maxlength="9"></ion-input>
+      </ion-item>
+      <ion-item class="custom-input" lines="none">
+        <ion-input placeholder="Correo" type="email"></ion-input>
+      </ion-item>
+      <ion-item class="custom-input" lines="none">
+        <ion-input placeholder="Contraseña" type="password"></ion-input>
+      </ion-item>
+      <ion-item class="custom-input" lines="none">
+        <ion-input placeholder="Confirmar contraseña" type="password"></ion-input>
+      </ion-item>
+      <ion-button (click)="redirigir()" expand="block">
+        Registrar
+      </ion-button>
+    </form>
+  </div>
+</ion-content>
+
+
+        
+       
