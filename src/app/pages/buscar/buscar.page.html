@@ -4,10 +4,12 @@
   </ion-toolbar>
 </ion-header>
 <ion-content class="ion-padding">
-  <ion-searchbar show-clear-button="always" clear-icon="trash-bin" placeholder="Buscar"></ion-searchbar>
+  <ion-searchbar
+    [(ngModel)]="searchText"
+    show-clear-button="always"
+    clear-icon="trash-bin"
+    placeholder="Buscar">
+  </ion-searchbar>
   <hr>
-  <app-tarjetas-nombre/>
-
+  <app-tarjetas-nombre [buscar]="buscar" [searchText]="searchText"></app-tarjetas-nombre>
 </ion-content>
-
-

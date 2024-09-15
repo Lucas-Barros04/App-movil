@@ -1,17 +1,12 @@
 <ion-content class="ion-padding">
-
-
-
   <ion-card *ngFor="let tarjeta of filteredCards">
     <img alt="Descripción de la imagen" [src]="tarjeta.imagen.url" />
     <ion-card-header>
       <ion-card-title>{{ tarjeta.titulo }}</ion-card-title>
       <ion-card-subtitle>{{ tarjeta.subtitulo }}</ion-card-subtitle>
     </ion-card-header>
-
     <ion-card-content>
       {{ tarjeta.descripcion }}
     </ion-card-content>
   </ion-card>
 </ion-content>
-
