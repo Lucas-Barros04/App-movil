@@ -11,6 +11,14 @@ export class TrajetaComponent  implements OnInit {
   @Input() subtitulo: string = 'modelo'; // Inicializado
   @Input() descripcion: string = 'fallo'; // Inicializado
 
+
+
+  usuarios = [
+
+
+
+    
+  ]
   constructor() { }
 
   ngOnInit() {}
